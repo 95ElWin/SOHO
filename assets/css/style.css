@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+:root {
+  --black-500: #242424;
+  --white-500: #fcfcfc;
+  --grey-500: #484848;
+  --green-500: #75c0c7;
+  --pink-500: #f0b3ba;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+header {
+  background-color: var(--black-500);
+  color: var(--white-500);
+}
+.container {
+  width: 60%;
+  margin: 0px auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head-left {
+  padding: 15px;
+  border-right: 1px solid var(--grey-500);
+}
+.head-right {
+  padding: 15px;
+  border-left: 1px solid var(--grey-500);
+}
+.head-brand h1 {
+  display: inline-block;
+  font-weight: inherit;
+}
+/*---------------------BANNER-------------------*/
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f4f9;
+}
+.banner-img {
+  position: relative;
+  width: 780px;
+  height: 530px;
+  overflow: hidden;
+  z-index: 1;
+}
+.banner-img img {
+  width: 760px;
+  height: auto;
+}
+.banner-img .new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 90px;
+  left: 240px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: larger;
+  color: var(--white-500);
+  background-color: var(--pink-500);
+  z-index: -1;
+}
+.banner-text {
+  padding-left: 100px;
+  line-height: 1.5;
+}
+.banner-text h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--black-500);
+}
+.banner-text span {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+  color: var(--green-500);
+}
+.banner-text a {
+  font-weight: bold;
+  padding-left: 10px;
+  color: var(--pink-500);
+  text-decoration: underline;
+}
