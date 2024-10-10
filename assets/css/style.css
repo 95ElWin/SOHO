@@ -78,6 +78,7 @@ header {
   color: var(--black-500);
 }
 .banner-text span {
+  padding-right: 10px;
   font-family: sans-serif;
   font-weight: bold;
   font-size: x-large;
@@ -85,7 +86,31 @@ header {
 }
 .banner-text a {
   font-weight: bold;
-  padding-left: 10px;
   color: var(--pink-500);
-  text-decoration: underline;
+  transition: 0.5s;
+}
+.banner-text a:hover {
+  border-bottom: 2px solid var(--pink-500);
+}
+/*-----------------------CATEGORY-----------------------*/
+.category {
+  width: 50%;
+  margin: 0px auto;
+}
+.category ul {
+  display: flex;
+  padding: 40px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.category a {
+  font-size: 21px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.category li > a:hover {
+  border-bottom: 2px solid var(--pink-500);
+}
+.category .active {
+  color: var(--pink-500);
 }
