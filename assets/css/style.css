@@ -114,3 +114,22 @@ header {
 .category .active {
   color: var(--pink-500);
 }
+/*-----------------------PRODUCT-----------------------*/
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product .product-item {
+  width: calc(100% / 3);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-item .product-img img {
+  width: 250px;
+}
+.product-text {
+  text-align: center;
+}
