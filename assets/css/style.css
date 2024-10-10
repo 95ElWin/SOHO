@@ -186,12 +186,15 @@ header {
   background-color: var(--black-500);
   width: 100px;
   height: 50px;
+  font-size: 12px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: end;
-  left: 0px;
+  top: -7px;
+  left: -32px;
   z-index: 1;
-  transform: rotateZ("315");
+  transform: rotateZ(315deg);
 }
 .product-text2 {
   margin-left: 30px;
