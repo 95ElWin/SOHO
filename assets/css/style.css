@@ -8,6 +8,9 @@
   --grey-600: #a3a3a3;
   --green-500: #75c0c7;
   --pink-500: #f0b3ba;
+  --pink-600: #eab5bb;
+  --red-500: #df4b63;
+  --red-600: #c44057;
   --brown-500: #cc9f64;
 }
 body {
@@ -164,6 +167,7 @@ header {
 .bg-white {
   background-color: var(--white-600);
 }
+/*-------------------ITEM2------------------------*/
 .product-item .product-img2 {
   width: 220px;
   height: 220px;
@@ -220,4 +224,51 @@ header {
 .baseline {
   display: flex;
   justify-content: baseline;
+}
+/*-----------------------ITEM3---------------------------*/
+.product-text3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: -webkit-fill-available;
+  color: var(--pink-600);
+  background-color: var(--red-500);
+  padding: 45px 0px;
+  z-index: -2;
+}
+.percent {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  color: var(--red-600);
+  font-size: 100px;
+  font-weight: 600;
+  z-index: -1;
+}
+.product-text3 h1 {
+  padding-right: 60px;
+  font-size: 100px;
+  font-weight: 600;
+  font-family: sans-serif;
+  z-index: 1;
+}
+.product-text3 .text-first h3 {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 10px;
+  line-height: 0;
+}
+.product-text3 > h3 {
+  display: inline-block;
+  font-size: 90px;
+  font-weight: 200;
+}
+.product-text3 p {
+  padding: 0px 70px;
+  color: var(--white-500);
+  line-height: 1.4;
 }
