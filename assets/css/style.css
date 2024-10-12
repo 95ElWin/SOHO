@@ -12,6 +12,9 @@
   --red-500: #df4b63;
   --red-600: #c44057;
   --brown-500: #cc9f64;
+  --blue-500: #3b5a99;
+  --blue-600: #29a6d7;
+  --blue-700: #3d7399;
 }
 body {
   font-family: "Josefin Sans", sans-serif;
@@ -271,4 +274,68 @@ header {
   padding: 0px 70px;
   color: var(--white-500);
   line-height: 1.4;
+}
+/*-----------------------ShowMore---------------------*/
+.showmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--white-600);
+  background-color: var(--white-500);
+  padding: 20px 0px;
+  font-size: 20px;
+  font-weight: 700;
+}
+/*-----------------------SUBSCRIBE---------------------*/
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+  border: 2px solid var(--white-600);
+}
+.subscribe .social {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 50px;
+  padding: 0px 35px 0px 95px;
+  border-right: 3px solid var(--white-600);
+}
+.fa-square-facebook {
+  color: var(--blue-500);
+}
+.fa-square-twitter {
+  color: var(--blue-600);
+}
+.fa-square-instagram {
+  color: var(--blue-700);
+}
+.subscribe .email {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 95px 0px 35px;
+  font-size: 20px;
+}
+.subscribe .email span {
+  font-weight: bold;
+}
+.subscribe .email input {
+  width: 320px;
+  height: 50px;
+  border: 2px solid var(--white-600);
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  padding-left: 20px;
+}
+.subscribe .email button {
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--white-500);
+  background-color: var(--green-500);
 }
