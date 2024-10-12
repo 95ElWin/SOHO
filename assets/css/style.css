@@ -339,3 +339,45 @@ header {
   color: var(--white-500);
   background-color: var(--green-500);
 }
+/*-----------------------FOOTER-----------------------*/
+footer {
+  color: var(--white-500);
+  background-color: var(--black-500);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 95px 40px 95px;
+}
+.footer .footer-first {
+  width: 25%;
+}
+.footer .footer-first h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.footer .footer-second {
+  width: 75%;
+}
+.footer .footer-second p {
+  line-height: 1.3;
+}
+.footer .footer-three {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 100px 0px 0px;
+  line-height: 1.5;
+}
+.footer .footer-four p {
+  padding-bottom: 4px;
+}
+.footer a {
+  text-decoration: underline;
+}
+.footer a:hover {
+  color: var(--green-500);
+}
+.footer .footer-four i {
+  font-size: 50px;
+  padding-top: 5px;
+}
